@@ -51,7 +51,7 @@ If you have the precompiled binary, you can run it directly:
 
 1. Move the binary to your desired directory:
    ```sh
-   mv nerdfonts-installer /usr/local/bin/
+   mv release/nerdfonts-installer /usr/local/bin/
    ```
 2. Make it executable if needed:
    ```sh
