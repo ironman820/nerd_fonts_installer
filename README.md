@@ -31,7 +31,7 @@ Additionally, the compiled binary version of the script (`nerdfonts-installer`) 
 
    ```sh
    git clone https://github.com/fam007e/nerd_fonts_installer.git
-   cd nerdfonts-installer
+   cd nerd_fonts_installer
    ```
 2. Make the script executable:
    ```sh
