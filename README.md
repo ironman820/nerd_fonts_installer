@@ -41,6 +41,8 @@ Additionally, the compiled binary version of the script (`nerdfonts-installer`) 
    ```sh
    ./nerdfonts_installer.sh
    ```
+
+   
 4. Follow the prompts to select and install fonts.
 
 ### 2. Using the Binary (`nerdfonts-installer`)
@@ -60,6 +62,17 @@ If you have the precompiled binary, you can run it directly:
    nerdfonts-installer
    ```
 The binary version works exactly like the shell script and does not require any shell interpretation.
+
+### 3. Or, run it directly from the terminal `shell`
+
+- Download and run the Installer Script:
+   ```sh
+   curl -sS https://raw.githubusercontent.com/fam007e/nerd_fonts_installer/main/nerdfonts_installer.sh | sh
+   ```  
+- Alternatively, you can download and execute the precompiled binary:
+   ```sh
+   curl -sSLo nerdfonts-installer https://github.com/fam007e/nerd_fonts_installer/blob/main/release/nerdfonts-installer && chmod +x nerdfonts-installer && ./nerdfonts-installer
+   ```
 
 ## Customization
 
