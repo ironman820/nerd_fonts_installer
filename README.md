@@ -85,3 +85,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contributions
 Feel free to open issues or submit pull requests for improvements, bug fixes, or additional fonts!
+
+## Credits
+Special thanks to awesome [@ryanoasis](https://github.com/ryanoasis) repo [`nerd-fonts`](https://github.com/ryanoasis/nerd-fonts).
