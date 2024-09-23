@@ -165,6 +165,5 @@ for selection in $font_selection; do
     rm "$HOME/tmp/$font_name.tar.xz"
 done
 
-
 # Update font cache
 fc-cache -vf
