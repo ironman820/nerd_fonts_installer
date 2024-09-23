@@ -26,7 +26,7 @@ jobs:
 
     - name: Authenticate GitHub CLI
       run: |
-        gh auth login --with-token <<< "${{ secrets.GITHUB_TOKEN }}"
+        echo "${{ secrets.MY_GITHUB_TOKEN }}" | gh auth login --with-token
 
     - name: Build binary
       run: |
