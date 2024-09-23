@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - nerdfonts_installer.sh  # This ensures the workflow runs only if this file is changed
+      - nerdfonts_installer.sh
 
 jobs:
   release:
@@ -25,10 +25,8 @@ jobs:
         sudo apt-get install -y gh
 
     - name: Authenticate GitHub CLI
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        echo "${GITHUB_TOKEN}" | gh auth login --with-token
+        gh auth login --with-token <<< "${{ secrets.GITHUB_TOKEN }}"
 
     - name: Build binary
       run: |
