@@ -1,6 +1,6 @@
 # NerdFonts Installer
 
-This repository contains a POSIX-compliant shell script (`nerdfonts_installer.sh`) for downloading and installing a selection of popular Nerd Fonts on Linux systems. The script automatically detects the operating system, installs necessary dependencies, and provides a user-friendly menu to select and install the desired fonts.
+This repository contains a shell script (`nerdfonts_installer.sh`) for downloading and installing a selection of popular Nerd Fonts on Linux systems. The script automatically detects the operating system, installs necessary dependencies, and provides a user-friendly menu to select and install the desired fonts.
 
 Additionally, the compiled binary version of the script (`nerdfonts-installer`) created using `shc` allows you to run the installer without needing to interpret the script.
 
@@ -9,7 +9,7 @@ Additionally, the compiled binary version of the script (`nerdfonts-installer`) 
 ## Features
 
 - Detects the operating system and selects the appropriate package manager.
-- Installs dependencies (`curl`, `tar`, `fontconfig`) if not already present.
+- Installs dependencies (`curl`, `unzip`, `fontconfig`) if not already present.
 - Provides a list of Nerd Fonts to choose from, displayed in a paginated three-column format.
 - Downloads and installs selected fonts into `~/.local/share/fonts`.
 - Updates the font cache automatically.
@@ -22,8 +22,7 @@ Additionally, the compiled binary version of the script (`nerdfonts-installer`) 
 
 #### Prerequisites
 
-- A POSIX-compliant shell.
-- `curl`, `tar`, and `fontconfig` installed on your system (the script installs these automatically if missing).
+- `curl`, `unzip`, and `fontconfig` installed on your system (the script installs these automatically if missing).
 
 #### Running the Script
 
